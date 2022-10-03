@@ -8,3 +8,22 @@
 html {
     font-size: 16px;
 }
+
+#app {
+    min-height: 100vh;
+    background-image: url('/background.jpg');
+    background-color: hsla(0, 0%, 50%, .5);
+    isolation: isolate;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#app::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    z-index: -1;
+    background-color: hsla(0, 0%, 0%, .5);
+}
