@@ -23,15 +23,15 @@
         data() {
             return {
                 keyData: [
-                    {id: id++, key:'a', sound:'clap', src: 'src/assets/audio/Clap.wav'},  
-                    {id: id++, key:'s', sound:'hihat', src: 'src/assets/audio/Hihat.wav'},
-                    {id: id++, key:'d', sound:'kick', src: 'src/assets/audio/Kick.wav'},
-                    {id: id++, key:'f', sound:'openhat', src: 'src/assets/audio/Openhat.wav'},
-                    {id: id++, key:'g', sound:'boom', src: 'src/assets/audio/Boom.wav'},
-                    {id: id++, key:'h', sound:'ride', src: 'src/assets/audio/Ride.wav'},
-                    {id: id++, key:'j', sound:'snare', src: 'src/assets/audio/Snare.wav'},
-                    {id: id++, key:'k', sound:'tom', src: 'src/assets/audio/Tom.wav'},
-                    {id: id++, key:'l', sound:'tink', src: 'src/assets/audio/Tink.wav'}
+                    { id: id++, key:'a', sound:'clap' },  
+                    { id: id++, key:'s', sound:'hihat' },
+                    { id: id++, key:'d', sound:'kick' },
+                    { id: id++, key:'f', sound:'openhat' },
+                    { id: id++, key:'g', sound:'boom' },
+                    { id: id++, key:'h', sound:'ride' },
+                    { id: id++, key:'j', sound:'snare' },
+                    { id: id++, key:'k', sound:'tom' },
+                    { id: id++, key:'l', sound:'tink'}
                 ]
             };
         },
